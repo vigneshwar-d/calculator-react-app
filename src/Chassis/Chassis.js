@@ -19,15 +19,19 @@ class Chassis extends Component {
         <Operands numbers="0" />
         <Operands numbers="1" />
         <Operands numbers="2" />
-        <br />
         <Operands numbers="3" />
+        <br />
         <Operands numbers="4" />
         <Operands numbers="5" />
-        <br />
         <Operands numbers="6" />
         <Operands numbers="7" />
-        <Operands numbers="8" />
         <br />
+        <Operands numbers="8" />
+        <Operands numbers="9" />
+        <Operands numbers="10" />
+        <Operands numbers="11" />
+        <br />
+        <span className={styles.BottomText}>calculator</span>
       </div>
     );
   }
