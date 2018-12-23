@@ -1,0 +1,9 @@
+.Chassis {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #222;
+  width: 400px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
