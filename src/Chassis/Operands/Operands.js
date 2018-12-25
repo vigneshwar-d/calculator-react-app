@@ -20,7 +20,11 @@ const operandNumbers = [
 const operands = props => {
   return (
     <div className={styles.Operands}>
-      <button>{operandNumbers[parseInt(props.numbers)]}</button>
+      <button
+        onClick={() => props.clicked(operandNumbers[parseInt(props.numbers)])}
+      >
+        {operandNumbers[parseInt(props.numbers)]}
+      </button>
     </div>
   );
 };

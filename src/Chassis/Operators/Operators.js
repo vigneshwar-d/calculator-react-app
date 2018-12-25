@@ -7,7 +7,11 @@ const operatorsSymbols = ["+", "-", "/", "*"];
 const operators = props => {
   return (
     <div className={styles.Operators}>
-      <button>{operatorsSymbols[parseInt(props.symbol)]}</button>
+      <button
+        onClick={() => props.clicked(operatorsSymbols[parseInt(props.symbol)])}
+      >
+        {operatorsSymbols[parseInt(props.symbol)]}
+      </button>
     </div>
   );
 };

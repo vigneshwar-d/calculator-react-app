@@ -4,9 +4,10 @@ import styles from "./DisplayUnit.css";
 
 const displayUnit = props => {
   return (
-    <div className={styles.DisplayUnit}>
-      <input type="text" />
-    </div>
+    // <div>
+    //   <p className={styles.DisplayUnit}>{props.content}</p>
+    // </div>
+    <div className={styles.DisplayUnit}>{props.content}</div>
   );
 };
 
