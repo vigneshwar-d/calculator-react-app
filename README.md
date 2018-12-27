@@ -1,6 +1,8 @@
 # A Calculator App using React.js
 
-## How to run this app?
+
+**View the app at [https://calculator-react-app.netlify.com](https://calculator-react-app.netlify.com)**
+## How to run this app on your machine?
 
 > **Prerequisite**: _You must have Node.js installed_.
 
